@@ -1,0 +1,144 @@
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.653);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.spinner {
+  height: 200px;
+  width: 200px;
+}
+.layout {
+  padding: 35px;
+  background-color: var(--primary);
+  height: 100vh;
+}
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #9a81d5 50%, #492874 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 50px !important;
+}
+.heading {
+  color: #492874;
+  font-weight: 600;
+}
+.heading1 {
+  margin-right: 90px !important;
+}
+.heading2 {
+  color: #492874;
+  font-size: 30px;
+}
+.rowStyle {
+  margin-top: 100px;
+}
+.card1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, #49287479 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  margin: 10px;
+}
+.heading3 {
+  color: #492874;
+  font-weight: 600;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.title {
+  color: #492874 !important;
+  font-weight: 600;
+}
+.inputStyle {
+  background-color: #9a81d560 !important;
+  margin-left: 50px;
+  border-radius: 30px;
+  height: 50px !important;
+  width: 220px;
+}
+.inputStyle::placeholder {
+  color: #391f5b;
+  padding-left: 15px;
+}
+.button-7 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(179, 132, 201, 0.84),
+    rgba(57, 31, 91, 0.84) 50%
+  );
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px !important;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  margin: 0;
+  margin-right: 50px;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px,
+    rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-7:hover {
+  background-image: linear-gradient(#b384c9, #391f5b 50%);
+}
+
+@media (min-width: 768px) {
+  .button-7 {
+    font-size: 21px;
+    padding: 18px 30px;
+  }
+}
+
+.form-style {
+  margin-left: 150px;
+}
+.card2 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, #49287479 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  padding: 20px;
+}
+.inputStyle1 {
+  background-color: #9a81d560 !important;
+  width: 200px !important;
+  border-radius: 10px;
+}
+
+.studentStyle {
+  margin-top: -20px;
+}
+.studentStyle1 {
+  margin-top: -40px;
+}
+.editStyle {
+  margin-top: -20px;
+}
+.table {
+  background-color: var(--primary);
+}
